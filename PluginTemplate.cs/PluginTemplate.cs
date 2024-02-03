@@ -124,7 +124,7 @@ namespace WindowsGSM.Plugins
                 Functions.ServerConsole.SetMainWindow(p.MainWindowHandle);
                 Functions.ServerConsole.SendWaitToMainWindow("^c");
             });
-            await Task.Delay(20000);
+            await Task.Delay(2000);
         }
 
         // - Update server function
